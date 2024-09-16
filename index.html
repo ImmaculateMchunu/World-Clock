@@ -5,50 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
-    <title>World Clock - Immaculate Mchunu</title>
+    <title>World Clock</title>
 </head>
 
 <body>
     <div class="container">
         <h1>World Clock</h1>
-
-        <select id="city-selector">
-            <option value="">Select a city...</option>
-            <option value="Los Angeles">Los Angeles</option>
-            <option value="New York">New York</option>
-            <option value="Paris">Paris</option>
-        </select>
-
-        <div class="city">
-            <div>
-                <h2>Los Angeles</h2>
-                <div class="date" id="la-date">September 16th 2024</div>
-            </div>
-            <div class="time" id="la-time">15:11 <small>PM</small></div>
+        <div class="city" id="los-angeles">
+            <h2>Los Angeles</h2>
+            <div class="date"></div>
+            <div class="time"></div>
         </div>
-
-        <div class="city">
-            <div>
-                <h2>New York</h2>
-                <div class="date" id="ny-date">September 16th 2024</div>
-            </div>
-            <div class="time" id="ny-time">15:11 <small>PM</small></div>
+        <div class="city" id="new-york">
+            <h2>New York</h2>
+            <div class="date"></div>
+            <div class="time"></div>
         </div>
-
-        <div class="city">
-            <div>
-                <h2>Paris</h2>
-                <div class="date" id="paris-date">September 16th 2024</div>
-            </div>
-            <div class="time" id="paris-time">15:11 <small>PM</small></div>
+        <div class="city" id="tokyo">
+            <h2>Tokyo</h2>
+            <div class="date"></div>
+            <div class="time"></div>
+        </div>
+        <div class="city" id="paris">
+            <h2>Paris</h2>
+            <div class="date"></div>
+            <div class="time"></div>
         </div>
     </div>
-
     <footer>
         This project was coded by <strong>Immaculate Mchunu</strong> and is
         <a href="https://github.com/ImmaculateMchunu/World-Clock.git" target="_blank">open-sourced on GitHub</a>
     </footer>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
     <script src="JavaScript/index.js"></script>
 </body>
 
