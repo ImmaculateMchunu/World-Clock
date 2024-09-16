@@ -9,23 +9,33 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script
         src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
-    <title>World Clock - Immaculate Mchunu</title>
+    <title>World Clock - Immaculate</title>
 </head>
-
-<body>
+<body></body>
     <div class="container">
         <h1>World Clock</h1>
+
+        <select id="city">
+            <option value="">Select a city..</option>
+            <option value="current">My current location</option>
+            <option value="Europe/London">London</option>
+            <option value="America/New_York">New York</option>
+            <option value="Pacific/Auckland">Auckland</option>
+        </select>
+
         <div id="cities">
             <div class="city" id="los-angeles">
                 <div>
-                    <h2><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/143/729/original/los_angeles.png?1726486684" alt="US Flag"> Los Angeles</h2>
+                    <h2><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/143/729/original/los_angeles.png?1726486684"
+                            alt="US Flag"> Los Angeles</h2>
                     <div class="date"></div>
                 </div>
                 <div class="time"></div>
             </div>
             <div class="city" id="paris">
                 <div>
-                    <h2><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/143/730/original/paris.png?1726486709" alt="FR Flag"> Paris</h2>
+                    <h2><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/143/730/original/paris.png?1726486709"
+                            alt="FR Flag"> Paris</h2>
                     <div class="date"></div>
                 </div>
                 <div class="time"></div>
@@ -33,11 +43,10 @@
         </div>
     </div>
     <footer>
-        This project was coded with ❤️ by <strong>Immaculate Mchunu</strong> and is
-        <a href="https://github.com/ImmaculateMchunu/World-Clock.git" target="_blank">
+        This project was coded with ❤️ by <strong>Matt Delac</strong> and is
+        <a href="https://github.com/matthieua/world-clock" target="_blank">
             open sourced on GitHub</a>
     </footer>
     <script src="javascript/index.js"></script>
 </body>
-
 </html>
