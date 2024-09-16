@@ -1,17 +1,26 @@
 body {
-    background-color: #f9f7fe;
+    background-color: #333;
     font-family: sans-serif;
+    background-image: url("https: //s3.amazonaws.com/shecodesio-production/uploads/files/000/143/849/original/a_less_colorful_digital_world_with_all_the_countries_at_the_bottom_of_the_image_it_must_have_a_coding_background_%281%29.jpeg?1726514317");
 }
 
 h1 {
     text-align: center;
     font-family: sans-serif;
-    font-size: 36px;
+    font-size: 50px;
+    color: #fff;
 }
 
 h2 {
     margin: 0 0 5px;
     font-size: 28px;
+    color: #fff;
+}
+
+h2 img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
 }
 
 select {
@@ -20,15 +29,17 @@ select {
     font-size: 18px;
     border-radius: 4px;
     padding: 10px;
+    background-color: #444;
+    color: #fff;
 }
 
 .container {
     max-width: 600px;
     margin: 60px auto;
-    background: white;
+    background: #222;
     padding: 30px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 10px;
+    box-shadow: 0px 0px 10px lightseagreen, 0px 0px 10px lightseagreen inset ;
+    border-radius: 48px 0;
 }
 
 .city {
@@ -36,7 +47,7 @@ select {
     margin: 10px 0;
     justify-content: space-between;
     padding: 30px 0;
-    border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
 }
 
 .city:last-child {
@@ -45,21 +56,24 @@ select {
 
 .date {
     opacity: 0.7;
+    color: #fff;
 }
 
 .time {
     font-size: 48px;
     font-weight: bold;
+    color: #fff;
 }
 
 .time small {
     font-size: 24px;
     vertical-align: middle;
     line-height: 48px;
+    color: #fff;
 }
 
 footer {
     text-align: center;
     font-size: 18px;
-    color: rgba(0, 0, 0, 0.8);
+    color: #fff;
 }
