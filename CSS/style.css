@@ -1,7 +1,7 @@
 body {
     background-color: #333;
     font-family: sans-serif;
-    background-image: url("https: //s3.amazonaws.com/shecodesio-production/uploads/files/000/143/849/original/a_less_colorful_digital_world_with_all_the_countries_at_the_bottom_of_the_image_it_must_have_a_coding_background_%281%29.jpeg?1726514317");
+    background: url("https: //s3.amazonaws.com/shecodesio-production/uploads/files/000/143/849/original/a_less_colorful_digital_world_with_all_the_countries_at_the_bottom_of_the_image_it_must_have_a_coding_background_%281%29.jpeg?1726514317");
 }
 
 h1 {
